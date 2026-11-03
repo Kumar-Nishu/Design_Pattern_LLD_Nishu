@@ -11,3 +11,8 @@ public class OrderService {
         notifications.SendNotification();
     }
 }
+
+
+
+// We move from Factory Method Pattern to Abstract Factory Pattern when our object creation requirements become more complex.
+//The main reason is that Factory Method focuses on creating one type of product, whereas Abstract Factory focuses on creating families of related products.

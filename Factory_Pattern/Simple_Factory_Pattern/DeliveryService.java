@@ -14,3 +14,6 @@ public class DeliveryService {
 // ------------------------Disdavantages of Simple Factory Pattern------------------------
 // 1. Violation of Open/Closed Principle: The Simple Factory Pattern violates the Open/Closed Principle, which states that software entities should be open for extension but closed for modification.  
 //     If a new notification type needs to be added, the factory class must be modified, which can lead to code changes in multiple places and potential bugs.
+
+
+// This Disadvantage can be mitigated by using the Factory Method Pattern or Abstract Factory Pattern, which allow for easier extension of new notification types without modifying existing code.
